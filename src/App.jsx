@@ -12,6 +12,7 @@ import Work from "./Components/Work";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import Portfolio from "./Components/Portfolio";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -40,7 +41,8 @@ const App = () => {
         <Hero />
         <About />
         <Skills />
-        <Work />
+        {/* <Work /> */}
+        <Portfolio />
         <Review />
         <Contact />
       </main>

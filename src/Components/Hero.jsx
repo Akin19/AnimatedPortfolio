@@ -5,10 +5,10 @@ import { ButtonOutline, ButtonPrimary } from "./Button";
 const Hero = () => {
   return (
     <section className="pt-28 lg-pt-36" id="#home">
-      <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
+      <div className="container items-center flex flex-col-reverse md:grid md:grid-cols-2 md:gap-10 lg:grid lg:grid-cols-2 lg:gap-10 ">
         <div className="">
           <div className="flex items-center gap-3">
-            <figure className="img-box w-9 h-9 rounded-lg">
+            {/* <figure className="img-box w-9 h-9 rounded-lg">
               <img
                 src={avatar1}
                 width={40}
@@ -16,6 +16,10 @@ const Hero = () => {
                 className="img-cover"
                 alt="asad akin"
               />
+            </figure> */}
+
+            <figure className="img-box w-9 h-9 md:w-12 md:h-12 rounded-lg">
+              <img src={avatar1} className="img-cover" alt="asad akin" />
             </figure>
 
             <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
@@ -30,7 +34,7 @@ const Hero = () => {
           sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10
           "
           >
-            Building Scalable Modern Websites for the Future
+            Turning Clicks into Connections, and Connections into Customers.
           </h2>
 
           <div className="flex items-center gap-3">
@@ -43,9 +47,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hidden lg:block">
+        <div className="lg:block">
           <figure
-            className="w-full max-w-[480px] ml-auto
+            className="w-full 
+             ml-auto
+             max-w-[280px] max-h-[300px] 
+              sm:max-w-[280px] sm:max-h-[300px] 
+              md:max-w-[400px] md:max-h-[600px] 
+              lg:max-w-[480px] lg:max-h-[700px] 
           bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] 
           overflow-hidden"
           >

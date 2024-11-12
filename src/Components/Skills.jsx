@@ -11,42 +11,42 @@ import tailwindImg from "../assets/images/tailwindcss.svg";
 const skillItem = [
   {
     imgSrc: figmaImg,
-    label: "Figma",
+    label: "SEO",
     desc: "Design tool",
   },
   {
     imgSrc: cssImg,
-    label: "CSS",
-    desc: "User Interface",
+    label: "Keyword",
+    desc: "Keyword Research",
   },
   {
     imgSrc: javascriptImg,
-    label: "JavaScript",
+    label: "Thumbnails",
     desc: "Interaction",
   },
   {
     imgSrc: nodeImg,
-    label: "NodeJS",
-    desc: "Web Server",
+    label: "Content",
+    desc: "Writing",
   },
   {
     imgSrc: expressImg,
-    label: "ExpressJS",
-    desc: "Node Framework",
+    label: "Facebook ads",
+    desc: "Ads strategy",
   },
   {
     imgSrc: mongoImg,
-    label: "MongoDB",
+    label: "Insights & analytics",
     desc: "Database",
   },
   {
     imgSrc: reactImg,
-    label: "React",
-    desc: "Framework",
+    label: "Funnel",
+    desc: "Audience control",
   },
   {
     imgSrc: tailwindImg,
-    label: "TailwindCSS",
+    label: "Regular Posting",
     desc: "User Interface",
   },
 ];

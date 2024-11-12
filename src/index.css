@@ -77,9 +77,14 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.headline-1 {
+/* .headline-1 {
   @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+} */
+
+.headline-1 {
+  @apply text-5xl sm:text-3xl md:text-4xl lg:text-[55px] leading-tight font-semibold lg:leading-[1.15];
 }
+
 .headline-2 {
   @apply text-3xl lg:text-4xl lg:leading-tight font-semibold;
 }
@@ -115,3 +120,9 @@ body {
 .reveal-up {
   @apply translate-y-20 opacity-0;
 }
+
+/* @media screen and (max-width:1024px){
+  .headline-1 {
+    @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+  }
+} */
