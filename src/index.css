@@ -82,7 +82,7 @@ body {
 } */
 
 .headline-1 {
-  @apply text-5xl sm:text-3xl md:text-4xl lg:text-[55px] leading-tight font-semibold lg:leading-[1.15];
+  @apply text-3xl sm:text-3xl md:text-4xl lg:text-[55px] leading-tight font-semibold lg:leading-[1.15];
 }
 
 .headline-2 {
